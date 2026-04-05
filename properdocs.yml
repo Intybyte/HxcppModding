@@ -1,0 +1,63 @@
+site_name: Hxcpp Modding
+site_description: Documentation for modding programs compiled with hxcpp
+site_author: Intybyte
+repo_url: https://github.com/Intybyte/HxcppModding
+
+theme:
+  name: material
+  logo: img/favicon.png
+  favicon: img/favicon.png
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - content.tabs.link
+  icon:
+    repo: simple/github
+
+extra_css:
+  - style.css
+
+nav:
+  - Home:
+    - What is Pylon?: index.md
+    - Installing Pylon: home/installing-pylon.md
+    - List of addons: home/list-of-addons.md
+    - Commands & permissions: home/commands-and-permissions.md
+    - Documentation progress: progress.md
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      guess_lang: false
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - open-in-new-tab
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
