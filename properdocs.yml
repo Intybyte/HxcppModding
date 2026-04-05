@@ -5,8 +5,8 @@ repo_url: https://github.com/Intybyte/HxcppModding
 
 theme:
   name: material
-  logo: img/favicon.png
-  favicon: img/favicon.png
+  # logo: img/favicon.png
+  # favicon: img/favicon.png
   palette:
     scheme: slate
     primary: custom
@@ -24,11 +24,24 @@ extra_css:
 
 nav:
   - Home:
-    - What is Pylon?: index.md
-    - Installing Pylon: home/installing-pylon.md
-    - List of addons: home/list-of-addons.md
-    - Commands & permissions: home/commands-and-permissions.md
-    - Documentation progress: progress.md
+    - Introduction: index.md
+  - Required Tools & Usage:
+    - Introduction: tools/index.md
+    - Cheat Engine: tools/cheat-engine.md
+    - Decompiler: tools/decompiler.md
+    - Documentation: tools/documentation.md
+    - Coherent use of AI: tools/ai.md
+  - Reverse Engineering Tricks:
+    - String constants: tricks/string-constants.md
+    - Bottom up: tricks/bottom-up.md
+  - Actual Modding:
+    - Expectations: mod/expectations.md
+  - Start!:
+    - Example Game Introduction: tec2/index.md
+    - String Search Results: tec2/string-search.md
+    - Basic Data Structures: tec2/basic-data.md
+    - Weird Data Structures: tec2/weird-data.md
+    - Identifying Haxe Calls: tec2/haxe.md
 
 markdown_extensions:
   - def_list
