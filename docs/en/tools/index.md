@@ -31,7 +31,7 @@ So it is perfectly fine if you don't know what this is:
 ![Assembly](../../img/tools/assembly.png)
 
 ??? note "Spoiler"
-\(It is floats, the bane of my existence, and soon yours too\)
+    It is floats, the bane of my existence, and soon yours too
 
 ### No support
 
