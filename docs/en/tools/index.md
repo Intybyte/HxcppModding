@@ -30,7 +30,8 @@ So it is perfectly fine if you don't know what this is:
 
 ![Assembly](../../img/tools/assembly.png)
 
-||\(It is floats, the bane of my existence, and soon yours too\)||
+??? note "Spoiler"
+\(It is floats, the bane of my existence, and soon yours too\)
 
 ### No support
 
