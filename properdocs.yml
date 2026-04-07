@@ -46,7 +46,6 @@ nav:
     - Expectations: mod/expectations.md
   - Case Study:
     - Example Game Introduction: tec2/index.md
-    - Modding Objective: tec2/objective.md
     - Reverse Engineering:
       - Introduction: tec2/re/index.md
       - Track Interested Methods: tec2/re/track-methods.md
