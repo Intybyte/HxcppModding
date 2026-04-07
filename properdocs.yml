@@ -39,6 +39,8 @@ nav:
     - Locate boot_all: tricks/locate-boot-all.md
     - Blinkers: tricks/blinkers.md
   - Actual Modding:
+    - Launcher and Loader: mod/launcher-loader.md
+    - Enviroment Setup: mod/enviroment-setup.md
     - Expectations: mod/expectations.md
   - Case Study:
     - Example Game Introduction: tec2/index.md
