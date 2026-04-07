@@ -42,13 +42,21 @@ nav:
   - Actual Modding:
     - Launcher and Loader: mod/launcher-loader.md
     - Enviroment Setup: mod/enviroment-setup.md
+    - Assembly Patching & Hooking: mod/assembly-ph.md
     - Expectations: mod/expectations.md
   - Case Study:
     - Example Game Introduction: tec2/index.md
-    - String Search Results: tec2/string-search.md
-    - Basic Data Structures: tec2/basic-data.md
-    - Weird Data Structures: tec2/weird-data.md
-    - Identifying Haxe Calls: tec2/haxe.md
+    - Modding Objective: tec2/objective.md
+    - Reverse Engineering:
+      - Introduction: tec2/re/index.md
+      - Track Interested Methods: tec2/re/track-methods.md
+      - String Search Results: tec2/re/string-search.md
+      - Basic Data Structures: tec2/re/basic-data.md
+      - Identifying Haxe Calls: tec2/re/haxe-calls.md
+      - Haxe Data Structures: tec2/re/haxe-data-Structures.md
+    - Creating the Mod:
+      - Introduction: tec2/mod/index.md
+      - Overriding logic: tec2/mod/assembly-ph.md
 
 markdown_extensions:
   - def_list
