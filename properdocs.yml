@@ -1,6 +1,7 @@
 site_name: Hxcpp Modding
 site_description: Documentation for modding programs compiled with hxcpp
 site_author: Intybyte
+site_url: https://intybyte.github.io/hxcppmodding.github.io/
 repo_url: https://github.com/Intybyte/HxcppModding
 
 theme:
