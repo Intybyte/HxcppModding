@@ -1,6 +1,7 @@
 I will mod the game [The Enchanted Cave 2](https://store.steampowered.com/app/368610/The_Enchanted_Cave_2/). 
 
 The developer Dustinaux gave me some insights for modding the game:
+
 - The game is written in Haxe
 - It uses Lime lib
 - Most stuff is defined in XML
