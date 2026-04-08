@@ -28,8 +28,8 @@ nav:
     - Introduction: index.md
   - Required Tools & Usage:
     - Introduction: tools/index.md
-    - Cheat Engine: tools/cheat-engine.md
     - Decompiler: tools/decompiler.md
+    - Dynamic Analysis: tools/dynamic-analysis.md
     - Documentation: tools/documentation.md
     - Coherent use of AI: tools/ai.md
   - Reverse Engineering Tricks:
@@ -39,9 +39,8 @@ nav:
     - Proper namespacing: tricks/proper-namespacing.md
     - Locate boot_all: tricks/locate-boot-all.md
     - Blinkers: tricks/blinkers.md
-  - Actual Modding:
+  - Modding:
     - Launcher and Loader: mod/launcher-loader.md
-    - Enviroment Setup: mod/enviroment-setup.md
     - Assembly Patching & Hooking: mod/assembly-ph.md
     - Expectations: mod/expectations.md
   - Case Study:
