@@ -47,9 +47,8 @@ nav:
     - Example Game Introduction: tec2/index.md
     - Reverse Engineering:
       - Introduction: tec2/re/index.md
-      - Track Interested Methods: tec2/re/track-methods.md
-      - Identifying Haxe Calls: tec2/re/haxe-calls.md
-      - Identifying Lime Calls: tec2/re/haxe-calls.md
+      - Track Interested Functions: tec2/re/track-functions.md
+      - Identifying Calls: tec2/re/identifying-calls.md
     - Creating the Mod:
       - Introduction: tec2/mod/index.md
       - Overriding logic: tec2/mod/assembly-ph.md
