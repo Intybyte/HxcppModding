@@ -48,10 +48,8 @@ nav:
     - Reverse Engineering:
       - Introduction: tec2/re/index.md
       - Track Interested Methods: tec2/re/track-methods.md
-      - String Search Results: tec2/re/string-search.md
-      - Basic Data Structures: tec2/re/basic-data.md
       - Identifying Haxe Calls: tec2/re/haxe-calls.md
-      - Haxe Data Structures: tec2/re/haxe-data-Structures.md
+      - Identifying Lime Calls: tec2/re/haxe-calls.md
     - Creating the Mod:
       - Introduction: tec2/mod/index.md
       - Overriding logic: tec2/mod/assembly-ph.md
