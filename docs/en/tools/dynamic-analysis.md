@@ -22,6 +22,15 @@ Examples:
 
 There are many more commands you can use, a good 5min search will give you most of the answers.
 
+### Debugging a Mod
+
+Let's say you completed everything and you now want to check why your mod crashes. Then you will need to launch WinDbg with the correct path and point it to your launcher.
+
+You will need to hook to the child process spawned by the launcher, to do so you will need to run these commands after starting to debug:
+
+- `.childdbg 1` : Enables child process debugging
+- `sxe cpr` : Break on process creation
+
 ## Cheat Engine
 
 A program that allows you track memory changes so that you can find values and pointers more easly that you can later link to your decompiler's output. While I hate the fact that downloading this piece of software has you walk a landmine of adware softwares in the installation process, it is very useful and worth it.
