@@ -27,3 +27,5 @@ The game works and here it is a file I used for testing:
 ```
 
 It is based on the `Chunk of Amber` item, it is basically the same but the floor spawn range is bigger.
+
+![Shop preview](../../../img/tec2/mod/shop_preview.png)
