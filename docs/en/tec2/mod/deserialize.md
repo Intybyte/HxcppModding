@@ -16,6 +16,6 @@ First we define `isAssetIdFile` that just does a string check to see if it has t
 
 ??? warning
 
-    As a cautionary tale, make the functions empty at the beginning, or make them behave the same way they would normally, just to check if you are hooking properly. 
+    Just to be sure you are patching and hooking properly, make the functions empty at the beginning, or make them behave the same way they would normally. 
     
     After confirming that your patch is the correct size and everything you are doing makes sense, you can start to fill up the your functions with the real logic.
