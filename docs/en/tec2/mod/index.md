@@ -16,4 +16,8 @@ A: Slighly before the end of the `tec2::Deserialize::allItemDefinitions` functio
 
 We are going to add items from a XML file format, the files will be located in `/Mods/Assets/*.xml`.
 
-Let's get started!
+You can find the complete source code at [TEC2AssetAdder](https://github.com/Intybyte/TEC2AssetAdder).
+
+Keep in mind you will have to do a lot of trial and errors sometimes, you won't mod anything in a day. While writing these sections it took me a lot to not mess up some calls in Assembly, so don't feel too discouraged, it is the way it is.
+
+Now that everything has been said, let's get started!
