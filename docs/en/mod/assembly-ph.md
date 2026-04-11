@@ -2,7 +2,7 @@ This is going to be your bread and butter for modding games, but honestly most o
 
 This will change the behaviour at RUNTIME, you are not editing anything on the disk, this way you don't really break anything on the game files themselves.
 
-This phase can generally be complete in 3 steps
+This phase can generally be complete in 3 steps:
 
 ### Assembly Patching
 
@@ -18,13 +18,13 @@ This is for x64, for x86 is way easier as you don't need to use imm64.
 
 The jump will go to a function we defined ourself, you will need to define this jump function in assembly, because you will need to keep everything coherent, not corrupt the stack, and if your patching replaced some important instructions and not padding, you will need to redo them at the end of your assembly function.
 
-Example using MSVC and MASM to define a function.
+Example using MCVS and MASM to define a function.
 
 ![Assembly Hooking](../../img/mod/assembly_hooking.png)
 
-MSVC forces you to use a MASM file for x64 in C for defining assembly functions. It doesn't however force you for x86, where you can us `__asm`.
+MCVS forces you to use a MASM file for x64 in C for defining assembly functions. It doesn't however force you for x86, where you can us `__asm`.
 
-Many languages that support low level programming, might have such macros/functions to just define assembly directly without an extern file, for example [Rust](https://doc.rust-lang.org/reference/inline-assembly.html), in case you change you don't want to use C/C++, but this guide will focus on C/C++.
+Many languages that support low level programming, might have such macros/functions to just define assembly directly without an external file, for example [Rust has many](https://doc.rust-lang.org/reference/inline-assembly.html), in case you don't want to use C/C++, but this guide will focus on C/C++.
 
 ### Executing C/C++ Function
 
@@ -38,4 +38,4 @@ If you are brave enough, or the logic is simple enough, or you are some kind of 
 
 ---
 
-This guide used a mod loader for an example, the modloader structure is very similar to the mod one, with the only different is that its context is not yet inside the game's memory.
+This example used a mod loader for an example, the modloader structure is very similar to the mod one.

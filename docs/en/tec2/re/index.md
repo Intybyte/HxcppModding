@@ -8,6 +8,6 @@ I found a function called slighly after what seems like setting the title to the
 
 I also track down the `__boot_all` method, which doesn't seem a good place to hook, as sometimes stuff aren't executed here, not sure why, the `__boot_all` was at `FUN_140032980`.
 
-By starting the ".exe" with my launcher, which in turn loads the mod loader, we now have a basic structure going, and there seems to be some extra output on screen, seems to be `hx::trace` doing something, these informations become useful later.   
+By starting the ".exe" with my launcher, which in turn loads the mod loader, we now have a basic structure going, and there seems to be some extra output on screen, seems to be `hx::trace` doing something, these informations may become useful later.   
 
 You can find the mod loader at [TEC2ModLoader](https://github.com/Intybyte/TEC2ModLoader/)

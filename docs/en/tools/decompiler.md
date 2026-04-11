@@ -2,9 +2,7 @@ Ghidra, IDA, Binary Ninja any decompiler is good.
 
 I personally use Ghidra.
 
-Do your own research and experimentation on which one you are more familiar with. Rarely you
-are going to share directly with other people your decompiling efforts. And if you are, it is
-probably not going to be sharing file type of stuff, but sad screenshots of decompiled stuff. 
+Do your own research and experimentation on which one you are more confortable with. Rarely you are going to share with other people your decompiling efforts. And if you are, it is probably not going to be sharing file type of stuff, but sad screenshots of decompiled stuff. 
 
 ### Cons
 

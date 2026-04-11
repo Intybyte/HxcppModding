@@ -44,10 +44,8 @@ We can also deduce the definition of Array of object classes:
 0x18	0x8	dynamic * *	dynamic * *	elements	
 ```
 
-I have seen some Arrays with primitive types which might have a different structure, they don't use dynamic at the end but `int**` for instance.
+I have seen some Arrays with primitive types which might have a different structure, they don't use dynamic at the end but `int**` for instance. This will be useful for when we need to handle arrays to pass to the deserialization function.
 
-This will be useful for when we need to handle arrays to pass to the deserialization function.
-
-From other functions that write to the GLOBAL_REGISTRY and alike, and decompiling said function calls we can also obtain the `hx::ArrayBase::__new` function
+The deserialize function writes all scanned items to a static field, that I will call for convenience `GLOBAL_REGISTRY`. From other functions that write to the `GLOBAL_REGISTRY` and alike, and decompiling said function calls we can also obtain the `hx::ArrayBase::__new` function.
 
 ![Init static](../../../img/tec2/re/init_static.png)

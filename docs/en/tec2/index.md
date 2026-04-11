@@ -10,6 +10,6 @@ The developer Dustinaux is alright with modding and gave me some insights for mo
 
 The game is an RPG dungeon crawler with a basic crafting & enchanting system and some other features.
 
-The objective is adding custom items to the game, each item has a picture, but for the sake of simplifying for now we will target only adding items themselves and maybe recycle the image assets of other items.
+The objective is adding custom items to the game, each item has a picture, but for the sake of simplifying for now we will target only adding items themselves and recycle the image assets of other items.
 
 This might create problems with the save data, so better take a backup.

@@ -15,7 +15,7 @@ The LoadAllAssets:
 
 There were some problems when implementing this, because I was trying to use the specific registries for the offsets, but it looks like they are more like temporary static variables, or the GC removed them after the use, I am unsure, but using them crashed the game as it wouldn't find valid vftables entries.
 
-So I had to use the `hx::ArrayBase::__new` function to create a temporary array and dump everything there. Anyways the GLOBAL_REGISTRY will register them just fine.
+So I had to use the `hx::ArrayBase::__new` function to create a temporary array and dump everything there. Anyways the `GLOBAL_REGISTRY` will register them just fine.
 
 The game works and here it is a file I used for testing:
 

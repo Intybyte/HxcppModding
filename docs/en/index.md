@@ -8,4 +8,4 @@ One of the main challenge is that now, together with having to figure out what s
 
 But it can also become and advantage knowing the general structure on how hxcpp transpiles to C++, because we can more easily detect some methods... it doesn't help however that Haxe has inline functions that make everything more messy to read, but once you track them down and categorize them with extreme prejudice, reading the decompiled code gets easier.
 
-This guide provides tools, techniques, and using a game as an example [The Enchanted Cave 2](https://store.steampowered.com/app/368610/The_Enchanted_Cave_2/) as a reference.
+This guide provides tools, techniques, and using the game [The Enchanted Cave 2](https://store.steampowered.com/app/368610/The_Enchanted_Cave_2/) as a reference.

@@ -10,15 +10,15 @@ Generally you are going to inspect the registers at a breakpoint, then use anoth
 
 The main commands you are going to use are:
 
-- bp \<module\> + \<offset\> : Adds Breakpoints
-- bl : Lists breakpoints
-- r : Shows registers
-- ? \<expression\> : Expression operator to do calculations, useful when you need to compute the relative offset of an address
+- `bp <module> + <offset>` : Adds Breakpoints
+- `bl` : Lists breakpoints
+- `r` : Shows registers
+- `? <expression>` : Expression operator to do calculations, useful when you need to compute the relative offset of an address
 
 Examples:
 
-- bp ApplicationMain+0xcafebabe
-- ? rip - ApplicationMain
+- `bp ApplicationMain+0xcafebabe`
+- `? rip - ApplicationMain`
 
 There are many more commands you can use, a good 5min search will give you most of the answers.
 
@@ -30,6 +30,7 @@ You will need to hook to the child process spawned by the launcher, to do so you
 
 - `.childdbg 1` : Enables child process debugging
 - `sxe cpr` : Break on process creation
+- `lm` : Prints list of loaded modules
 
 Your objective is using break points in the main game itself.
 
@@ -41,24 +42,16 @@ A program that allows you track memory changes so that you can find values and p
 
 Essentially Cheat Engine allows you to track memory values, and the included debugger help you to also keep track of what is writing/accessing a certian memory value.
 
-So for instance if you want to mod the HP for a game, like probably the tutorial of CE shows you,
-\(not sure, did it a long ago, it is a pretty solid tutorial\), you might want to debug based on
-write access and see what writes to it, you might find the game's way of handling HP, maybe a
-damage or heal function, or something that does both.
+So for instance if you want to mod the HP for a game, like probably the tutorial of CE shows you, \(not sure, did it a long ago, it is a pretty solid tutorial\), you might want to debug based on write access and see what writes to it, you might find the game's way of handling HP, maybe a damage or heal function, or something that does both.
 
-Most of the times you are going to use the write debugger breakpoint, as the access of course 
-gives a lot of stuff you might not be interested in.
+Most of the times you are going to use the write debugger breakpoint, as the access of course  gives you a lot of stuff you might not be interested in.
 
 ### DYOR
 
-I will not give you a tutorial on this section about Cheat Engine, and I am going to assume that
-if you got this far in reading this, you are capable enough to find such info and tutorials that 
-explain the topic in a better way I could convey myself on a glorified notepad.
+I will not give you a tutorial on this section about Cheat Engine, and I am going to assume that if you got this far in reading this, you are capable enough to find such info and tutorials that  explain the topic in a better way I could convey myself on a glorified notepad.
 
 ### Other
 
-For the sake of alternatives, there is Squalr that is getting developed that might be an 
-alternative, but there are probably similar programs out there, in a finished state,
-that might do something similar, Cheat Engine is the one most are familiar with.
+For the sake of alternatives, there is Squalr that is getting developed that might be an  alternative, but there are probably similar programs out there, in a finished state, that might do something similar, Cheat Engine is the one most are familiar with.
 
 As a general note, any good Dynamic Analysis tool/toolset is needed.
