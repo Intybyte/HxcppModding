@@ -31,6 +31,8 @@ You will need to hook to the child process spawned by the launcher, to do so you
 - `.childdbg 1` : Enables child process debugging
 - `sxe cpr` : Break on process creation
 
+Your objective is using break points in the main game itself.
+
 ## Cheat Engine
 
 A program that allows you track memory changes so that you can find values and pointers more easly that you can later link to your decompiler's output. While I hate the fact that downloading this piece of software has you walk a landmine of adware softwares in the installation process, it is very useful and worth it.

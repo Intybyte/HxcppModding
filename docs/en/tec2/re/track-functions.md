@@ -14,4 +14,4 @@ There seems also to be chinese language support, and the parameters name are der
 
 ![Item Definition](../../../img/tec2/re/item_definitions.png)
 
-I made a `type_info` struct with a total size of 32bits, named type, but after some analysis I believe that it is just a `uint32_t` length field, and Ghidra or hxcpp compiler are just adding unnecessary stuff to make it more complex than it actually is, but I am keeping it like this for now. 
+I made a `type_info` struct with a total size of 32bits, named type, but after some analysis I believe that it is just a `uint32_t` length field, and Ghidra or hxcpp compiler are just adding unnecessary stuff to make it more complex than it actually is, but I am keeping it like this for now.

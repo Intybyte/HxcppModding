@@ -51,7 +51,8 @@ nav:
       - Identifying Calls: tec2/re/identifying-calls.md
     - Creating the Mod:
       - Introduction: tec2/mod/index.md
-      - Overriding logic: tec2/mod/assembly-ph.md
+      - Patch loading function: tec2/mod/loading.md
+      - Patch end of load all function: tec2/mod/load-all.md
 
 markdown_extensions:
   - def_list
